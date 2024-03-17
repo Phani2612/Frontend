@@ -81,7 +81,7 @@ function Checkout() {
     
         if(Orderdata.length == 0)
         {
-          window.location.href = "https://ecommercefrontend-si2i.onrender.com/message"
+          window.location.href = "https://frontend-6lrd.onrender.com/message"
         }
 
         else{
