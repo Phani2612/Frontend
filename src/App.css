@@ -1,0 +1,367 @@
+
+
+
+ .btn.btn-warning{
+    
+      width: 250px;
+ }
+
+  
+
+ .btn.btn-primary {
+     
+  font-size: 10px;
+  width: 100px;
+  margin-top: 10px;
+  margin-left: 40px;
+  
+}
+
+
+.outer{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+margin-bottom: -890px;
+
+}
+
+.card{
+height: 370px;
+margin: 10px;
+width: 250px;
+border-radius: 20px;
+padding: 10px;
+align-items: center;
+background-color: whitesmoke;
+}
+
+#images{
+width: 120px;
+height: 120px;
+
+border-radius: 20px;
+}
+
+body{
+background-color: thistle;
+overflow: scroll;
+}
+
+li{
+list-style-type: none;
+}
+
+
+
+.container {
+background-color: #fff;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+width: 500px;
+margin-top: 200px;
+}
+
+form {
+max-width: 400px;
+margin: 0 auto;
+}
+
+h2 {
+text-align: center;
+color: #333;
+}
+
+.input-container {
+margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+button {
+width: 100%;
+padding: 10px;
+background-color: #007bff;
+border: none;
+border-radius: 5px;
+color: #fff;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #0056b3;
+}
+
+
+
+
+.login-container {
+background-color: #fff;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+width: 500px;
+margin-top: 200px;
+margin-left: 500px;
+}
+
+form {
+max-width: 300px;
+margin: 0 auto;
+}
+
+h2 {
+text-align: center;
+color: #333;
+}
+
+.login-input-container {
+margin-bottom: 15px;
+}
+
+input[type="email"],
+input[type="password"] {
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+button {
+width: 100%;
+padding: 10px;
+background-color: #007bff;
+border: none;
+border-radius: 5px;
+color: #fff;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #0056b3;
+}
+
+.signup-link{
+
+margin-left: 150px;
+margin-top: 15px;
+}
+
+.navbar{
+
+ display: flex;
+ flex-direction: row;
+ 
+ 
+
+}
+
+
+.address-item {
+  border: 2px solid #4CAF50;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+
+.address-item h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.address-item p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.address-item span {
+  font-weight: bold;
+}
+
+.address-item .address-label {
+  display: inline-block;
+  width: 100px;
+  font-weight: bold;
+}
+
+
+.orderdetails{
+
+  display: flex;
+  flex-direction: row;
+
+}
+
+.trashicon{
+
+   margin-left: 1400px;
+   font-size: 30px;
+}
+
+
+/* Styles for the message container */
+.message-container {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+/* Styles for the heading */
+.message-heading {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Styles for the subheading */
+.message-subheading {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+
+
+
+
+/* ////////////////////////////////////// */
+
+
+
+/* Media query for tablet view */
+@media (max-width: 768px) {
+  .btn.btn-warning {
+    width: 200px; /* Adjusting button width for tablet view */
+  }
+
+  .btn.btn-primary {
+    width: 80px; /* Adjusting button width for tablet view */
+    margin-left: 20px; /* Adjusting button margin for tablet view */
+  }
+
+  .outer {
+    margin-bottom: -500px; /* Adjusting margin for tablet view */
+  }
+
+  .card {
+    height: 350px; /* Adjusting card height for tablet view */
+    width: 250px; /* Adjusting card width for tablet view */
+  }
+
+  #images {
+    width: 100px; /* Adjusting image width for tablet view */
+    height: 100px; /* Adjusting image height for tablet view */
+  }
+
+  .container {
+    width: 90%; /* Adjusting container width for tablet view */
+    margin-top: 100px; /* Adjusting margin top for tablet view */
+  }
+
+  .login-container {
+    width: 90%; /* Adjusting container width for tablet view */
+    margin-top: 100px; /* Adjusting margin top for tablet view */
+    margin-left: auto; /* Centering login container horizontally */
+    margin-right: auto; /* Centering login container horizontally */
+  }
+
+  .signup-link {
+    margin-left: 100px; /* Adjusting margin left for tablet view */
+  }
+
+  .nav-item :hover{
+         
+    color: gold;
+}
+
+.nav-link{
+
+  color: gold;
+  font-weight: 1000;
+}
+
+.trashicon {
+  margin-left: 700px; /* Adjust position for mobile */
+}
+
+
+}
+
+/* Media query for mobile view */
+@media (max-width: 480px) {
+  .btn.btn-warning {
+    width: 150px; /* Adjusting button width for mobile view */
+  }
+
+  .nav-link{
+
+    color: gold;
+    font-weight: 1000;
+  }
+  
+  .btn.btn-primary {
+    width: 60px; /* Adjusting button width for mobile view */
+    margin-left: 10px; /* Adjusting button margin for mobile view */
+  }
+
+  .outer {
+    margin-bottom: -300px; /* Adjusting margin for mobile view */
+  }
+
+  .card {
+    height: 320px; /* Adjusting card height for mobile view */
+    width: 250px; /* Adjusting card width for mobile view */
+  }
+
+  #images {
+    width: 80px; /* Adjusting image width for mobile view */
+    height: 80px; /* Adjusting image height for mobile view */
+  }
+
+  .container,
+  .login-container {
+    width: 90%; /* Adjusting container width for mobile view */
+    margin-top: 50px; /* Adjusting margin top for mobile view */
+    margin-left: auto; /* Centering containers horizontally */
+    margin-right: auto; /* Centering containers horizontally */
+  }
+
+  .signup-link {
+    margin-left: 80px; /* Adjusting margin left for mobile view */
+  }
+
+  .btn.btn-primary{
+
+     font-size: 10px;
+     width: 100px;
+     margin-top: 20px;
+  }
+  
+  .nav-item :hover{
+         
+    color: gold;
+}
+
+
+.trashicon {
+  margin-left: 400px; /* Adjust position for mobile */
+}
+
+
+
+}
